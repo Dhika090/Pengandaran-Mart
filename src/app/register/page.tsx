@@ -57,15 +57,17 @@ return(
                   className="block w-full p-4 px-3 py-2 pl-10 mt-2 text-sm text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Masukan password anda" required />
               </div>
-              <div className="py-4 mt-2">
-                <button type="submit"
+              <div className="py-4 mt-2 text-center">
+                {/* <button type="submit"
                   className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">
                   Lanjut
-                </button>
-                {/* <a href={''}
-                  className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">
-                  Lanjut
-                </a> */}
+                </button> */}
+                <Link className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600" href={{
+                  pathname: '/',
+                  query: { name: 'test' },
+                }}>
+                Masuk
+                </Link>
               </div>
               <span className="mt-3 text-black ">Sudah punya akun?
                 <Link href={'/'} className="text-xs font-semibold text-blue-950 hover:underline"> Masuk di sini

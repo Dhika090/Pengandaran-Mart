@@ -31,17 +31,32 @@ return(
 
                     <div className="p-6 mb-4 bg-white rounded-lg shadow-md">
                         <div className="flex items-center px-8 pb-5">
-                            <span className='font-semibold text-black'>Pesanan Anda akan dikirim ke alamat</span>
-                            <h6 className='ml-auto'>Ubah Alamat</h6>
+                            <span className='font-semibold text-black'>Pesanan</span>
                         </div>
                         <div
-                            className="block max-w-full p-6 mx-8 text-black bg-white border border-gray-200 rounded-lg">
-                            <h5 className="mb-2 font-bold tracking-tight text-black">Bapak Sugandi
-                            </h5>
-                            <p className="font-normal">Jln. Sukabirus Desa Buahlaya Kec. Pangandaran Kab.Pangandaran
-                                4567</p>
+                            className="block max-w-full p-6 mx-8 text-black bg-gray-100 border border-gray-200 rounded-lg">
+                            <div className="flex items-center w-full px-4 bg-white">
+                                <Image src="/images/productIkan.png" width={100} height={10} alt='imagesproduct' />
+                                <h6 className='ml-auto'>1x</h6>
+                            </div>
+                            {/* <h5 className="mb-2 font-bold tracking-tight text-black">Bapak Sugandi
+                            </h5> */}
+
+                            {/* <p className="font-normal">Jln. Sukabirus Desa Buahlaya Kec. Pangandaran Kab.Pangandaran
+                                4567</p> */}
                         </div>
                     </div>
+                    
+                    <div className="p-6 mb-4 bg-white rounded-lg shadow-md">
+                        <div className="flex items-center px-8 pb-5">
+                            <span className='font-semibold text-black'>Pesanan</span>
+                        </div>
+                        <div
+                            className="block max-w-full p-6 mx-8 text-black bg-gray-100 border border-gray-200 rounded-lg">
+                           
+                        </div>
+                    </div>
+                    
                 </div>
                 <div className="md:w-1/3">
                     <div className="p-6 bg-white rounded-lg shadow-md">

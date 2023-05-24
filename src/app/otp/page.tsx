@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import Link from 'next/link';
 
 export default function page(){
 return(
@@ -35,32 +36,36 @@ return(
                 <div className="w-16 h-16 ">
                   <input
                     className="flex flex-col items-center justify-center w-full h-full mx-auto text-lg text-center bg-white border border-gray-200 outline-none rounded-xl focus:bg-gray-50 focus:ring-1 ring-blue-700"
-                    type="text" name="text" id="text" maxLength={1}/>
+                    type="text" name="text" id="text" maxLength={1} />
                 </div>
                 <div className="w-16 h-16 ">
                   <input
                     className="flex flex-col items-center justify-center w-full h-full mx-auto text-lg text-center bg-white border border-gray-200 outline-none rounded-xl focus:bg-gray-50 focus:ring-1 ring-blue-700"
-                    type="text" name="text" id="text"maxLength={1} />
+                    type="text" name="text" id="text" maxLength={1} />
                 </div>
                 <div className="w-16 h-16 ">
                   <input
                     className="flex flex-col items-center justify-center w-full h-full mx-auto text-lg text-center bg-white border border-gray-200 outline-none rounded-xl focus:bg-gray-50 focus:ring-1 ring-blue-700"
-                    type="text" name="text" id="text" maxLength={1}/>
+                    type="text" name="text" id="text" maxLength={1} />
                 </div>
               </div>
 
-              <div className="flex flex-col space-y-5">
+              <div className="flex flex-col space-y-5 text-center">
                 <div>
-                  <button
-                    className="flex flex-row items-center justify-center w-40 py-4 mx-auto text-sm text-center text-white border-none rounded-lg shadow-sm outline-none bg-blue-950">
-                    Masuk
-                  </button>
+                   <Link
+                      className="flex flex-row items-center justify-center w-40 py-4 mx-auto text-sm text-center text-white border-none rounded-lg shadow-sm outline-none bg-blue-950"
+                      href={{
+                      pathname: '/checkout',
+                      query: { name: 'test' },
+                    }}>
+                      Masuk
+                    </Link>
                 </div>
 
                 <div
                   className="flex flex-row items-center justify-center space-x-1 text-sm font-medium text-center text-gray-500">
-                  <p>Tidak mendapat kode? </p> <a className="flex flex-row items-center font-semibold text-black" href="http://"
-                    target="_blank" rel="noopener noreferrer">Kirim Ulang</a>
+                  <p>Tidak mendapat kode? </p> <a className="flex flex-row items-center font-semibold text-black"
+                    href="http://" target="_blank" rel="noopener noreferrer">Kirim Ulang</a>
                 </div>
               </div>
             </div>

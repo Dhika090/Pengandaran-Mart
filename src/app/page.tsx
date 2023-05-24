@@ -5,6 +5,7 @@ export default function login(){
 
 return(
 <>
+
   <body>
     <section className="flex items-stretch min-h-screen text-black ">
       <div className="relative items-center hidden w-1/2 bg-no-repeat bg-cover bg-sky-100 lg:flex">
@@ -32,7 +33,7 @@ return(
                   <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                     <Image src="/images/logobendera.svg" className='mt-2' width={20} height={0} alt="icon" />
                   </div>
-                    <input type="number"  
+                  <input type="number"
                     className="block w-24 py-2 pl-10 mt-2 text-sm text-gray-700 bg-white border rounded-md focus:border-gray-500 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder='+62' disabled />
                 </div>
@@ -44,7 +45,7 @@ return(
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                     </svg>
                   </div>
-                  <input type="number"  
+                  <input type="number"
                     className="block w-full px-3 py-2 pl-10 mt-2 text-sm text-gray-700 bg-white border rounded-md focus:border-gray-500 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Masukan nomor telp anda" required />
                 </div>
@@ -53,18 +54,25 @@ return(
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <Image src="/images/key.svg" className='mt-2' width={20} height={0} alt="icon" />
                 </div>
-                <input type="password" 
+                <input type="password"
                   className="block w-full p-4 px-3 py-2 pl-10 mt-2 text-sm text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
                   placeholder="Masukan password anda" required />
               </div>
-              <div className="py-4 mt-2">
-                <button type="submit"
+              <div className="py-4 mt-2 text-center">
+                {/* <button type="submit"
                   className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">
                   Lanjut
-                </button>
-                {/* <a href={''} className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600" >
-                Lanjut
+                </button> */}
+                {/* <a href={''}
+                  className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">
+                  Lanjut
                 </a> */}
+                <Link  className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600" href={{
+                  pathname: '/otp',
+                  query: { name: 'test' },
+                }}>
+                Lanjut
+                </Link>
               </div>
               <span className="mt-3 text-black ">Belum punya akun?
                 <Link href={'/register'} className="text-xs font-semibold text-blue-950 hover:underline"> Daftar sini
