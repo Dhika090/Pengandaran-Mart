@@ -42,7 +42,6 @@ return(
                                 4567</p>
                         </div>
                     </div>
-
                 </div>
                 <div className="md:w-1/3">
                     <div className="p-6 bg-white rounded-lg shadow-md">
