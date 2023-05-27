@@ -1,17 +1,17 @@
-import { FaRegEnvelope } from 'react-icons/fa';
+
 import Image from 'next/image';
 import Link from 'next/link';
-export default function register(){
+export default function login(){
+
 return(
 <>
-
-  <body>
+  <body> 
     <section className="flex items-stretch min-h-screen text-black ">
       <div className="relative items-center hidden w-1/2 bg-no-repeat bg-cover bg-[#E7F8FF] lg:flex">
         <div className="absolute inset-0 z-0 bg-white opacity-60"></div>
         <div className="z-10 w-full ">
           <h1 className="top-0 my-6">
-            <Image src="/images/textnlogo.svg" width={300} height={10} alt="icon" className='mx-auto' />
+            <Image src="/images/ilustration.png" width={330} height={10} alt="icon" className='mx-auto mb-24' />
           </h1>
         </div>
         <div className="absolute bottom-0 left-0 right-0 flex justify-center p-4 space-x-4 text-center">
@@ -23,8 +23,8 @@ return(
         </div>
         <div className="z-20 w-full py-6 ">
           <div className="mx-8 text-left">
-            <h2 className="mb-2 text-3xl font-bold text-black">Daftar</h2>
-            <p className="mb-2 text-black align-text-top ">Silakan daftar menggunakan nomor telepon
+            <h2 className="mb-2 text-3xl font-bold text-black">Masuk</h2>
+            <p className="mb-2 text-black align-text-top ">Silakan masuk menggunakan nomor telepon yang telah terdaftar.
             </p>
             <form className="flex flex-col w-full mt-6 sm:w-2/3 lg:px-0 ">
               <div className="flex mb-4">
@@ -58,19 +58,16 @@ return(
                   placeholder="Masukan password anda" required />
               </div>
               <div className="py-4 mt-2 text-center">
-                {/* <button type="submit"
-                  className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">
-                  Lanjut
-                </button> */}
-                <Link className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600" href={{
-                  pathname: '/login',
+                
+                <Link  className="float-left w-2/5 px-4 py-2 tracking-wide text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600" href={{
+                  pathname: '/',
                   query: { name: 'test' },
                 }}>
-                Masuk
+                Lanjut
                 </Link>
               </div>
-              <span className="mt-3 text-black ">Sudah punya akun?
-                <Link href={'/'} className="text-xs font-semibold text-blue-950 hover:underline"> Masuk di sini
+              <span className="mt-3 text-black ">Belum punya akun?
+                <Link href={'/register'} className="text-xs font-semibold text-blue-950 hover:underline"> Daftar sini
                 </Link>
               </span>
             </form>
