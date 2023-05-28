@@ -2,11 +2,11 @@ import Navbar from './../components/navbar';
 import Banner from '@/components/banner';
 import CategoryButtons from './../components/categoryButtons';
 import ProductLaris from '@/components/productLaris';
-import CardSpesial from '@/components/cardSpesial';
 import ProductLaut from '@/components/productLaut';
 import BannerTwo from '@/components/bannerTwo';
 import Mitra from '@/components/mitra';
 import Footer from '@/components/footer';
+import ProductsFeatured from '@/components/products-featured';
 
 
 export default function pageHome(){
@@ -14,7 +14,7 @@ return(
 <>
 
   <body>
-    <Navbar />
+    <Navbar />  
 
     <div className="min-h-screen px-16 pt-10 bg-white ">
       <Banner />
@@ -23,7 +23,9 @@ return(
       <CategoryButtons />
       <br />
 
-      <CardSpesial />
+      {/* <CardSpesial /> */}
+      
+      {/* <ProductsFeatured /> */}
       <ProductLaris />
       <ProductLaut />
 

@@ -50,7 +50,7 @@ return (
             <SwiperSlide>
                 <Image src='/images/logoexpolore.png' width={50} height={10} alt="icon" className="mr-2" />
             </SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
+            {/* <SwiperSlide>Slide 6</SwiperSlide> */}
         </Swiper>
     </div>
 </>

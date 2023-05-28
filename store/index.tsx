@@ -1,3 +1,5 @@
+"use client"
+
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import { createWrapper } from 'next-redux-wrapper';
 import cartReducer from './reducers/cart';

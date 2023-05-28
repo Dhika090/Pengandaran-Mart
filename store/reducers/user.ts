@@ -1,3 +1,5 @@
+"use client"
+
 import { remove } from 'lodash';
 
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
