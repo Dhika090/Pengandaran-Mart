@@ -1,6 +1,5 @@
 "use client";
-import Rater from 'react-rater';
-import { PunctuationType } from '../../../../types';
+import { PunctuationType } from '../../../../../types';
 
 const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => { 
   const percentageBar = (count: number) => {
@@ -11,7 +10,7 @@ const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => 
     <section className="product-punctuation">
       <div className="product-punctuation__values">
         <h3>{punctuation}</h3>
-        <Rater total={5} interactive={false} rating={punctuation} />
+        {/* <Rater total={5} interactive={false} rating={punctuation} /> */}
         <p><i className="icon-avatar"></i>{countOpinions} Semua Penilaian Produk</p>
       </div>
       
@@ -19,7 +18,7 @@ const Punctuation = ({ votes, punctuation, countOpinions }: PunctuationType) => 
         <ul className="punctuations-lists">
           {votes.map((vote) => (
             <li key={vote.count} className="punctuation-item">
-              <Rater total={1} interactive={false} rating={1} />
+              {/* <Rater total={1} interactive={false} rating={1} /> */}
               <span>{vote.value}</span>
               <div className="punctuation-item__bar">
                 <div style={{ width: percentageBar(vote.count)+'%' }} className="punctuation-item__bar__current"></div>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Navbar(){
 return(
 <nav className="top-0 left-0 z-20 block w-full bg-white border-b ">
-  <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto px-14">
+  <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto md:px-14">
     <a href="/" className="flex i2tems-center">
       <Image src="/images/textnlogo.svg" width={190} height={10} alt="icon" className='mx-auto' />
     </a>

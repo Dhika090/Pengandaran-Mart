@@ -1,5 +1,5 @@
 "use client";
-import { ProductType } from "../../../types";
+import { ProductType } from "../../../../types";
 import Punctuation from "./punctuation";
 import ReviewsList from "./review-list";
 

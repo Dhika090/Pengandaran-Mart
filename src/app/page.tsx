@@ -7,6 +7,7 @@ import BannerTwo from '@/components/bannerTwo';
 import Mitra from '@/components/mitra';
 import Footer from '@/components/footer';
 import ProductsFeatured from '@/components/products-featured';
+import CardSpesial from '@/components/cardSpesial';
 
 
 export default function pageHome(){
@@ -23,7 +24,7 @@ return(
       <CategoryButtons />
       <br />
 
-      {/* <CardSpesial /> */}
+      <CardSpesial />
       
       {/* <ProductsFeatured /> */}
       <ProductLaris />

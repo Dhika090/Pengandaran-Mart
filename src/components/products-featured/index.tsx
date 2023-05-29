@@ -30,7 +30,7 @@ return (
     {/*
     <ProductsCarousel products={data} /> */}
     
-    <CardSpesial products={data} />
+    {/* <CardSpesial products={data} /> */}
   </div>
 </section>
 

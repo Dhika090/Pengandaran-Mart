@@ -6,7 +6,7 @@ import Footer from '../../components/footer';
 // import Breadcrumb from '../../components/breadcrumb';
 import ProductsFeatured from '../../components/products-featured';
 // types
-import Gallery from '../../components/product-single/gallery';
+// import Gallery from '../../components/product-single/gallery';
 import Content from '../../components/product-single/content';
 import Description from '../../components/product-single/description';
 import Reviews from '../../components/product-single/reviews';
@@ -38,7 +38,7 @@ return (
   <section className="product-single">
     <div className="container">
       <div className="product-single__content">
-        <Gallery images={product.images} />
+        {/* <Gallery images={product.images} /> */}
         <Content product={product} />
       </div>
 

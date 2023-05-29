@@ -36,7 +36,7 @@ export default function ProductLaut(){
                   }} modules={[Pagination]} className="mySwiper sm:grid-cols-2">
                     <SwiperSlide>
                         <div className="block w-40 p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg">
-                            <Image className="" src="/images/icon/IkanJambalRoti.png" alt="ImageCards" width={150} height={100} />
+                            <Image className="" src="/images/IkanJambalRoti.png" alt="ImageCards" width={150} height={100} />
                             <div className="p-2">
                                 <h5 className="mb-2 text-sm font-bold tracking-tight text-black ">Ikan Jambal Roti</h5>
                                 <p className="mb-3 text-xs font-normal text-black ">500 gr.</p>
@@ -87,7 +87,7 @@ export default function ProductLaut(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="block w-40 p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg">
-                            <Image className="" src="/images/icon/IkanJambalRoti.png" alt="ImageCards" width={150} height={100} />
+                            <Image className="" src="/images/IkanJambalRoti.png" alt="ImageCards" width={150} height={100} />
                             <div className="p-2">
                                 <h5 className="mb-2 text-sm font-bold tracking-tight text-black ">Ikan Jambal Segar</h5>
                                 <p className="mb-3 text-xs font-normal text-black ">500 gr.</p>
@@ -104,9 +104,9 @@ export default function ProductLaut(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="block w-40 p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg">
-                            <Image className="" src="/images/icon/IkanJambal.png" alt="ImageCards" width={150} height={100} />
+                            <Image className="" src="/images/IkanJambal.png" alt="ImageCards" width={150} height={100} />
                             <div className="p-2">
-                                <h5 className="mb-2 text-sm font-bold tracking-tight text-black ">Ikan Jambal Segar</h5>
+                                <h5 className="mb-2 text-sm font-bold tracking-tight text-black ">Ikan Jambal</h5>
                                 <p className="mb-3 text-xs font-normal text-black ">500 gr.</p>
                                 <h2 className="mb-2 text-sm font-bold tracking-tight text-black ">Rp68.000</h2>
                                 <div className="grid grid-cols-2">
