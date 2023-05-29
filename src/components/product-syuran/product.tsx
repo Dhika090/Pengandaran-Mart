@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from 'react';
 
 import Link from 'next/link';
-export default function productDetail(){
+export default function ProductSayur(){
 
 const [count, setCount] = useState<number>(0);
     return(
@@ -13,29 +13,29 @@ const [count, setCount] = useState<number>(0);
             <div className="block p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg md:w-1/2">
                 <div className="grid gap-4">
                     <div>
-                        <Image className="h-auto max-w-full mx-auto rounded-lg" src="/images/IkanJambal.png" width={400}
+                        <Image className="h-auto max-w-full mx-auto rounded-lg" src="/images/pakis4.png" width={500}
                             height={10} alt="images" />
                     </div>
                     <div className="grid grid-cols-3 gap-6 mx-auto">
                         <div>
-                            <Image className="h-auto max-w-full rounded-lg" src="/images/meatFish.png" width={150}
+                            <Image className="h-auto max-w-full rounded-lg" src="/images/pakis1.png" width={150}
                                 height={10} alt="images" />
                         </div>
                         <div>
-                            <Image className="h-auto max-w-full rounded-lg" src="/images/meat.png" width={150}
+                            <Image className="h-auto max-w-full rounded-lg" src="/images/pakis2.png" width={150}
                                 height={10} alt="images" />
                         </div>
                         <div>
-                            <Image className="h-auto max-w-full rounded-lg" src="/images/ikanPatin.png" width={150}
+                            <Image className="h-auto max-w-full rounded-lg" src="/images/pakis3.png" width={150}
                                 height={10} alt="images" />
                         </div>
                     </div>
                 </div>
             </div>
             <div className="pt-16 mx-auto align-text-top md:w-5/12">
-                <h2>Ikan Jambal Segar</h2>
+                <h2 className="font-bold">Pakis</h2>
                 <br />
-                <h4 className="font-bold">Rp68.000</h4>
+                <h4 className="font-bold">Rp3.000</h4>
                 <div className="grid grid-cols-3 gap-16 pt-8 mx-auto md:flex">
                     <div>
                         <span>Terjual 200</span>
@@ -89,15 +89,8 @@ const [count, setCount] = useState<number>(0);
                     <Image src="./images/icon/share.svg" width={35} height={20} alt="icon"/>
                     </a>
                 </div>
-
-
             </div>
-
-
-
-
         </div>
-
     </div>
     )
     }
