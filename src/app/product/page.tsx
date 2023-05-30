@@ -10,7 +10,7 @@ return(
 
 <body>
     <Navbar />
-    <div className="min-h-screen px-16 pt-10 bg-gray-100 md:w-full ">
+    <div className="min-h-screen pt-10 bg-gray-100 ">
         {/* <h2 className='pb-4 pl-8 text-2xl font-bold text-black '>Beranda / Hasil Laut Pangandaran</h2> */}
         <ProductSayur />
         <br />

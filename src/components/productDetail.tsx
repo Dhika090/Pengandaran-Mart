@@ -7,11 +7,11 @@ export default function productDetail(){
 
 const [count, setCount] = useState<number>(0);
     return(
-    <div className="relative block w-full max-w-6xl px-6 pt-10 mx-auto bg-white shadow-xl h-2/4 pb-9 rounded-2xl md:w-full">
-        <div className="relative text-black bg-no-repeat bg-cover md:flex">
+    <div className="relative block px-6 pt-10 mx-auto bg-white shadow-xl sm:max-w-6xl h-2/4 pb-9 rounded-2xl sm:w-full">
+        <div className="relative text-black bg-no-repeat bg-cover md:flex ">
             <div className="inset-0 z-0 "></div>
             <div className="block p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg md:w-1/2">
-                <div className="grid gap-4">
+                <div className="grid gap-4 ">
                     <div>
                         <Image className="h-auto max-w-full mx-auto rounded-lg" src="/images/IkanJambal.png" width={400}
                             height={10} alt="images" />
@@ -32,11 +32,11 @@ const [count, setCount] = useState<number>(0);
                     </div>
                 </div>
             </div>
-            <div className="pt-16 mx-auto align-text-top md:w-5/12">
+            <div className="mx-auto align-text-top md:pt-16 md:w-5/12">
                 <h2>Ikan Jambal Segar</h2>
                 <br />
                 <h4 className="font-bold">Rp68.000</h4>
-                <div className="grid grid-cols-3 gap-16 pt-8 mx-auto md:flex">
+                <div className="flex mx-auto relativept-8 md:flex">
                     <div>
                         <span>Terjual 200</span>
                     </div>

@@ -14,7 +14,7 @@ return(
       <a href="/" type="button"className='pr-8' >
         <Image src={'/images/icon/message.svg'} width={25} height={10} alt='icon' /></a>
       <a type="button" href="/login"
-        className="px-4 py-2 mr-3 text-sm font-medium text-center text-white tracking-wide transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">Masuk</a>
+        className="px-4 py-2 mr-3 text-sm font-medium tracking-wide text-center text-white transition-colors duration-200 transform rounded-md bg-blue-950 hover:bg-blue-200 focus:outline-none focus:bg-gray-600">Masuk</a>
 
       <button data-collapse-toggle="navbar-sticky" type="button"
         className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"

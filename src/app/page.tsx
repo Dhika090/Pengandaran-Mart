@@ -17,7 +17,7 @@ return(
   <body>
     <Navbar />  
 
-    <div className="min-h-screen px-16 pt-10 bg-white ">
+    <div className="min-h-screen px-16 pt-10 bg-gray-100 ">
       <Banner />
 
       <h2 className='pt-8 pb-6 pl-8 text-2xl font-bold text-black'>Kategori</h2>

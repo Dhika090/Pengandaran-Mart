@@ -36,7 +36,7 @@ return (
           }} modules={[Pagination]} className="mySwiper">
             <SwiperSlide>
                 <div className="block w-40 p-2 mx-8 text-black bg-white border border-gray-200 rounded-lg">
-                    <Image className="" src="/images/IkanLayang.png" alt="ImageCards" width={150} height={100} />
+                    <Image className="" src="/images/ikanLayang.png" alt="ImageCards" width={150} height={100} />
                     <div className="p-2">
                         <h5 className="mb-2 text-sm font-bold tracking-tight text-black ">Ikan Layang</h5>
                         <p className="mb-3 text-xs font-normal text-black ">500 gr.</p>
