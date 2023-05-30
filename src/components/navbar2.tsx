@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import { useState } from 'react';
-export default function NavBar() {
+export default function NavBar2() {
 const [navbar, setNavbar] = useState(false);
 
 return (
