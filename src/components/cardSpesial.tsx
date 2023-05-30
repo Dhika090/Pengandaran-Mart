@@ -16,19 +16,19 @@ import Image from "next/image";
 export default function CardSpesial() {
 return (
 <>
-    <h2 className='pt-8 pb-4 pl-8 text-2xl font-bold text-black'>Spesial Hari Ini</h2>
-    <h5 className='pt-2 pb-4 pl-8 text-black d'>Promo hanya untukmu khusus hari ini</h5>
-    <div className="pb-12">
-        <Swiper slidesPerView={1} spaceBetween={10} pagination={{
+    <h2 className='pt-8 pb-4 text-2xl font-bold text-black'>Spesial Hari Ini</h2>
+    <h5 className='pt-2 pb-4 text-black d'>Promo hanya untukmu khusus hari ini</h5>
+    <div className="pb-12 mr-4">
+        <Swiper slidesPerView={2} spaceBetween={10} pagination={{
             clickable: true,
           }} breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 15,
             },
             768: {
               slidesPerView: 4,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
             1024: {
               slidesPerView: 5,

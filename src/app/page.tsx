@@ -15,10 +15,10 @@ return(
 <>
   <body>
     <Navbar />  
-    <div className="min-h-screen px-16 pt-10 bg-gray-100 ">
+    <div className="min-h-screen pt-10 bg-white md:px-16 px-4">
       <Banner />
 
-      <h2 className='pt-8 pb-6 pl-8 text-2xl font-bold text-black'>Kategori</h2>
+      <h2 className='pt-8 pb-6 text-2xl font-bold text-black'>Kategori</h2>
       <CategoryButtons />
       <br />
       <CardSpesial />

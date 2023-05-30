@@ -4,7 +4,6 @@ import DeskripsiProduct from './../../components/deskripsiProduct';
 import Testimonial from './../../components/testimonial';
 import ProductRekomendasi from "@/components/productRekomendasi";
 import ProductSayur from "@/components/product-syuran/product";
-import NavBar2 from './../../components/navbar2';
 
 export default function Product(){
 return(

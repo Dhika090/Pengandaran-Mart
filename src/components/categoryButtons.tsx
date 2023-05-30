@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CategoryButtons(){
 return(
-<div className="text-center ">
+<div className="">
     <div className="grid gap-2 md:grid-cols-4 sm:grid-cols-2 ">
         <div className="...">
             <button type="button"

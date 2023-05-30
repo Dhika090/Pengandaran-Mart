@@ -17,17 +17,17 @@ return (
 <>
     <h2 className='pt-8 pb-4 pl-8 text-2xl font-bold text-black'>Partnership</h2>
     <h5 className='pt-2 pb-4 pl-8 text-black d'>PangandaranMart bekerja sama  dan didukung oleh partner. </h5>
-    <div className="pb-12 pl-12">
-        <Swiper slidesPerView={1} spaceBetween={10} pagination={{
+    <div className="pb-12 pl-12 mr-4">
+        <Swiper slidesPerView={2} spaceBetween={10} pagination={{
                     clickable: true,
                   }} breakpoints={{
                     640: {
                       slidesPerView: 2,
-                      spaceBetween: 20,
+                      spaceBetween: 15,
                     },
                     768: {
                       slidesPerView: 4,
-                      spaceBetween: 40,
+                      spaceBetween: 30,
                     },
                     1024: {
                       slidesPerView: 5,
@@ -49,7 +49,7 @@ return (
             <SwiperSlide>
                 <Image src='/images/logoexpolore.png' width={100} height={10} alt="icon" className="mr-2" />
             </SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
+            {/* <SwiperSlide>Slide 6</SwiperSlide> */}
         </Swiper>
     </div>
 </>

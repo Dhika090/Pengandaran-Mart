@@ -3,7 +3,8 @@ import Image from 'next/image';
 
 export default function Banner(){
 return(
-<div className="relative block w-full max-w-6xl px-6 pt-10 mx-auto bg-[#E7F8FF] shadow-xl h-2/4 pb-9 rounded-2xl">
+  // max-w-6xl
+<div className="relative block w-full px-6 pt-10 mx-auto bg-[#E7F8FF] shadow-xl h-2/4 pb-9 rounded-2xl">
   <div className="relative items-center bg-no-repeat bg-cover md:flex">
     <div className="inset-0 z-0 "></div>
     <div className="z-10 ">
@@ -15,7 +16,7 @@ return(
         </p>
         <a href="#"
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#2C5C73] rounded-lg hover:bg-[#2C5C73] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#2C5C73] dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          Benlaja Sekarang
+          Belanja Sekarang
           <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"

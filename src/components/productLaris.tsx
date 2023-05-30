@@ -15,10 +15,10 @@ import Image from "next/image";
 export default function ProductLaris(){
 return (
 <>
-    <h2 className='pt-8 pb-4 pl-8 text-2xl font-bold text-black'>Product Laris Manis</h2>
-    <h5 className='pt-2 pb-4 pl-8 text-black d'>Cobain produk yang paling banyak disukai oleh orang</h5>
-    <div className="pb-12">
-        <Swiper slidesPerView={1} spaceBetween={10} pagination={{
+    <h2 className='pt-8 pb-4 text-2xl font-bold text-black'>Product Laris Manis</h2>
+    <h5 className='pt-2 pb-4 text-black d'>Cobain produk yang paling banyak disukai oleh orang</h5>
+    <div className="pb-12 mr-2">
+        <Swiper slidesPerView={2} spaceBetween={10} pagination={{
                     clickable: true,
                   }} breakpoints={{
                     640: {
@@ -27,7 +27,7 @@ return (
                     },
                     768: {
                       slidesPerView: 4,
-                      spaceBetween: 40,
+                      spaceBetween: 35,
                     },
                     1024: {
                       slidesPerView: 5,
